@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1032213687755230}
+  m_IsPrefabParent: 1
+--- !u!1 &1032213687755230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4985614335018038}
+  - component: {fileID: 114241955323696948}
+  - component: {fileID: 114963749755611668}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4985614335018038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032213687755230}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114241955323696948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032213687755230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0160647e0254b9842a37f6f720fb9571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSprites:
+  - {fileID: 21300016, guid: cffc66ff5a1520040a0feefaac57def1, type: 3}
+  - {fileID: 21300016, guid: cffc66ff5a1520040a0feefaac57def1, type: 3}
+  weaponSprites:
+  - {fileID: 21300000, guid: 17ccf4361e4fee645998fdb635182087, type: 3}
+  - {fileID: 21300002, guid: 17ccf4361e4fee645998fdb635182087, type: 3}
+  weaponPrices: 0a000000
+  xpTable: 050000000a00000011000000190000001e0000002800000037000000460000005a00000078000000
+  player: {fileID: 0}
+  sword: {fileID: 0}
+  pistol: {fileID: 114775675813502326, guid: f44a881a486b0754094ee9fe2c74e97d, type: 2}
+  floatingTextManager: {fileID: 0}
+  hitpointBar: {fileID: 0}
+  deathMenuAnim: {fileID: 0}
+  hud: {fileID: 0}
+  menu: {fileID: 0}
+  booze: 100
+  score: 0
+  waypointNames: []
+  talking: {fileID: 0}
+  currentWeaponIndex: 0
+  lastWeaponIndex: 0
+  objectives: []
+  levelCompleted: 0
+  statsHasBeenSet: 0
+--- !u!114 &114963749755611668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032213687755230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3136e2ecdb43134459a6f25f5abac0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
